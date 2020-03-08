@@ -20,12 +20,12 @@ import ButtonComponent from './ButtonComponent.vue'
 export default {
   data(){
     return{
-        itemsList: [{name:'Eggs',image:'./assets/eggs.jpg',show:false},
-                    {name:'Bread',image:'/assets/bread.jfif',show:false},
-                    {name:'Jam',image:'/assets/jam.jfif',show:false},
-                    {name:'CornFlakes',image:'/assets/cornflakes.jfif',show:false},
-                    {name:'Milk',image:'/assets/milk.jfif',show:false},
-                    {name:'Juice',image:'/assets/juice.jfif',show:false}]
+        itemsList: [{name:'Eggs',image:'./assets/eggs.jpg',show:true},
+                    {name:'Bread',image:'/assets/bread.jfif',show:true},
+                    {name:'Jam',image:'/assets/jam.jfif',show:true},
+                    {name:'CornFlakes',image:'/assets/cornflakes.jfif',show:true},
+                    {name:'Milk',image:'/assets/milk.jfif',show:true},
+                    {name:'Juice',image:'/assets/juice.jfif',show:true}]
         }
   },
   components:{
